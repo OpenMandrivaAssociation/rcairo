@@ -1,6 +1,6 @@
 %define name  rcairo
 %define version 1.4.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Ruby bindings for cairo
 Name: %name
@@ -18,14 +18,15 @@ Ruby bindings for cairo
 
 %package -n ruby-cairo
 Summary: Ruby bindings for cairo
-Group:	Development/Other
+Group:	Development/Ruby
+Provides: rcairo
 
 %description -n ruby-cairo
 Ruby bindings for cairo
 
 %package -n ruby-cairo-devel
 Summary: Development files of ruby cairo bindings
-Group:  Development/Other
+Group:  Development/Ruby
 Requires: ruby-cairo = %{version}
 
 %description -n ruby-cairo-devel
