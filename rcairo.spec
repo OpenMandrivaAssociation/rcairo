@@ -10,6 +10,7 @@ License: GPL
 Group:	Development/Ruby
 URL:	http://cairo.freedesktop.org/rcairo
 Source0: %{name}-%{version}.tar.bz2
+BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: ruby-devel cairo-devel
 
 %description
