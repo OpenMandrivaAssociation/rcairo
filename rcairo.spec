@@ -1,6 +1,6 @@
 %define name  rcairo
-%define version 1.4.1
-%define release %mkrel 2
+%define version 1.6.2
+%define release %mkrel 1
 
 Summary: Ruby bindings for cairo
 Name: %name
@@ -8,8 +8,8 @@ Version: %version
 Release: %release
 License: GPL
 Group:	Development/Ruby
-URL:	http://cairo.freedesktop.org/rcairo
-Source0: %{name}-%{version}.tar.bz2
+URL: http://cairographics.org
+Source0: http://cairographics.org/releases/%{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: ruby-devel cairo-devel
 
