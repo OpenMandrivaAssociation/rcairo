@@ -1,6 +1,6 @@
 %define name  rcairo
 %define version 1.8.0
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Ruby bindings for cairo
 Name: %name
