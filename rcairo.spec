@@ -4,7 +4,7 @@ Version:	1.12.2
 Release:	1
 License:	GPL
 Group:		Development/Ruby
-URL:		http://cairographics.org
+URL:		https://cairographics.org
 Source0:	http://cairographics.org/releases/%{name}-%{version}.tar.gz
 BuildRequires:	ruby-devel
 BuildRequires:	pkgconfig(cairo)
